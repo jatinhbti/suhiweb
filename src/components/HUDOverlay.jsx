@@ -91,29 +91,29 @@ export default function HUDOverlay() {
       </div>
 
       {/* ═══════════════════════════════════════════════
-          MOBILE HUD (Top/Bottom gutter)
+          MOBILE HUD (Top/Bottom gutter — MOVED TO EDGES)
           ═══════════════════════════════════════════════ */}
       
-      {/* Top Mobile — Temtrics */}
-      <div className="md:hidden absolute top-20 left-6 right-6 flex justify-between items-start opacity-60">
-        <div className="flex flex-col gap-1">
-          <div className="uppercase text-[8px] tracking-widest text-white/40">TEMTRICS</div>
-          <div className="font-mono text-[9px] text-white/60">84.72 / 215.04 / 91.56</div>
+      {/* Top Mobile Stats — Inline with Logo/Time */}
+      <div className="md:hidden absolute top-14 left-6 right-6 flex justify-between items-start opacity-40">
+        <div className="flex flex-col gap-0.5">
+          <div className="uppercase text-[7px] tracking-widest text-white/30">TEMTRICS</div>
+          <div className="font-mono text-[9px] text-white/60">84.72 / 215.04</div>
         </div>
-        <div className="flex flex-col gap-1 text-right">
-          <div className="uppercase text-[8px] tracking-widest text-white/40">ACTIVITY</div>
+        <div className="flex flex-col gap-0.5 text-right">
+          <div className="uppercase text-[7px] tracking-widest text-white/30">ACTIVITY</div>
           <div className="font-mono text-[9px] text-[#ff6b2b]">88.5%</div>
         </div>
       </div>
 
-      {/* Bottom Mobile — Scores */}
-      <div className="md:hidden absolute bottom-20 left-6 right-6 flex justify-between items-end opacity-60">
-        <div className="flex flex-col gap-1">
-          <div className="uppercase text-[8px] tracking-widest text-white/40">SCOREMAX</div>
+      {/* Bottom Mobile Stats — Inline above Footer */}
+      <div className="md:hidden absolute bottom-14 left-6 right-6 flex justify-between items-end opacity-40">
+        <div className="flex flex-col gap-0.5">
+          <div className="uppercase text-[7px] tracking-widest text-white/30">SCOREMAX</div>
           <div className="font-mono text-[9px] text-white/60">82.3</div>
         </div>
-        <div className="flex flex-col gap-1 text-right">
-          <div className="uppercase text-[8px] tracking-widest text-white/40">INFLUENCE</div>
+        <div className="flex flex-col gap-0.5 text-right">
+          <div className="uppercase text-[7px] tracking-widest text-white/30">INFLUENCE</div>
           <div className="font-mono text-[9px] text-[#ff6b2b]">88.1</div>
         </div>
       </div>
