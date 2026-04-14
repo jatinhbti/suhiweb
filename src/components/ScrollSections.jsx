@@ -186,7 +186,7 @@ export default function ScrollSections({ triggerPulseRef }) {
               SUHI PROTOCOL
             </div>
             <h1
-              className="text-4xl md:text-7xl font-light leading-tight mb-6"
+              className="text-3xl md:text-7xl font-light leading-tight mb-8"
               style={{ 
                 fontFamily: "'SF Pro Text', sans-serif", 
                 letterSpacing: '-0.02em',
