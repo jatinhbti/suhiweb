@@ -39,13 +39,13 @@ export default function CenterNode({ pulseRef }) {
       {/* Dense white wireframe shell 1 */}
       <mesh ref={coreWireframeRef}>
         <sphereGeometry args={[0.55, 32, 32]} />
-        <meshBasicMaterial color="#898989" wireframe={true} transparent opacity={0.6} toneMapped={false} />
+        <meshBasicMaterial color="#898989" wireframe={true} transparent opacity={0.2} toneMapped={false} />
       </mesh>
 
       {/* Dense white wireframe shell 2 (Creates the super-dense moiré pattern seen in image) */}
       <mesh ref={coreWireframeInnerRef}>
         <sphereGeometry args={[0.52, 24, 24]} />
-        <meshBasicMaterial color="#898989" wireframe={true} transparent opacity={0.4} toneMapped={false} />
+        <meshBasicMaterial color="#898989" wireframe={true} transparent opacity={0.1} toneMapped={false} />
       </mesh>
 
       {/* Faint orbital rings */}

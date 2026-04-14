@@ -14,7 +14,7 @@ export default function Edges({ pulseRef }) {
     const col = new Float32Array(EDGE_COUNT * 2 * 3)
     
     // Create base colors
-    const colorWhite = new THREE.Color('#888888')
+    const colorWhite = new THREE.Color('#444444')
     const colorOrange = new THREE.Color('#ff6b2b')
 
     for (let i = 0; i < EDGE_COUNT; i++) {
@@ -100,7 +100,7 @@ export default function Edges({ pulseRef }) {
         <lineBasicMaterial
           vertexColors={true}
           transparent={true}
-          opacity={0.15}
+          opacity={0.05}
           toneMapped={false}
           blending={THREE.AdditiveBlending}
           depthWrite={false}

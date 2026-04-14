@@ -187,7 +187,11 @@ export default function ScrollSections({ triggerPulseRef }) {
             </div>
             <h1
               className="text-4xl md:text-7xl font-light leading-tight mb-6"
-              style={{ fontFamily: "'SF Pro Text', sans-serif", letterSpacing: '-0.02em' }}
+              style={{ 
+                fontFamily: "'SF Pro Text', sans-serif", 
+                letterSpacing: '-0.02em',
+                textShadow: '0 0 30px rgba(0,0,0,0.8)'
+              }}
             >
               <span style={{ color: 'rgba(255,255,255,0.9)' }}>EARTH2</span>{' '}
               <span style={{ color: 'rgba(255,255,255,0.4)' }}>Identity Layer</span>
