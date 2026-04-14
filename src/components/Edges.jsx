@@ -100,7 +100,7 @@ export default function Edges({ pulseRef }) {
         <lineBasicMaterial
           vertexColors={true}
           transparent={true}
-          opacity={0.05}
+          opacity={0.2}
           toneMapped={false}
           blending={THREE.AdditiveBlending}
           depthWrite={false}
